@@ -8,8 +8,8 @@ function Home() {
          <div className=' rounded-b-2xl shadow-lg bg-white border-b border-[#EBF0F5] '>
             <img src="../../assests/logo.svg" className='w-32 py-5 ml-10' alt="" />
         </div>
-        <div className= 'w-1/5 bg-white  shadow-lg rounded-r-lg '>
-            <div className='flex flex-col  items-center'>
+        <div className= ' '>
+            <div className='flex flex-col  items-center w-1/5 bg-white  shadow-lg rounded-r-lg'>
                 <div>
                     <button className='bg-gradient-to-r mt-8 p-[3px] from-[rgb(26,4,198)] to-[#558DF9] rounded-md py-[1px] px-7 text-white font-semibold text-lg'>Edit Resume</button>
                 </div>
@@ -29,6 +29,7 @@ function Home() {
                     <BiSolidDashboard color='#566474' className='mr-2' size={20}/><p className='font-bold text-[#085aff]'>Guarenteed Jobs</p>
                 </div>              
             </div>
+            
         </div>
     </div>
   )
